@@ -6,7 +6,7 @@ Implement the following business logic:
 - Create a **button** to add tasks in the main layout, which should re-render the table.
 - Display details of a specific task run in a modal dialog or page.
 - Include a button to stop task execution in an overlay modal dialog or details page.
-*Feel free to propose your own implementation for the described features*
+- `*Feel free to propose your own implementation for the described features*`
 
 
 [Designing Part]
@@ -16,7 +16,7 @@ Consider UX and UI design for the following features:
 - Modal dialog
 - Button
 - (Nice to have) Utilize design tokens.
-*Feel free to propose your own implementation for the described features*
+- `*Feel free to propose your own implementation for the described features*`
 
 (Nice to have) [Testing Part]:
 - Implement a few playwright end-to-end tests for CRUD operations or use Storybook for visual tests of Widgets/Features business logic.
