@@ -1,0 +1,125 @@
+openapi: 3.0.1
+info:
+  title: "Testing UI API"
+  description: |
+    Test
+  version: "0.1"
+
+x-package: io.synthesized.api
+
+paths:
+  /api/v1/healthy:
+    get:
+      operationId: getHealth
+      tags:
+        - health
+      responses:
+        "200":
+          description: Healthcheck API, returns "OK" string if API is up and running
+          content:
+            application/json:
+              schema:
+                type: string
+                nullable: false
+
+  /api/v1/tasks:
+    get:
+      description: Returns list of current tasks
+      operationId: getTasks
+      responses:
+        "200":
+          description: Full list of tasks
+          content:
+            application/json:
+              schema:
+                type: array
+                nullable: false
+                items:
+                  $ref: '#/components/schemas/Task'
+
+  /api/v1/tasks/submit:
+    post:
+      operationId: submitTask
+      description: Submits a task
+      responses:
+        "201":
+          description: The submitted task
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Task'
+        "404":
+          description: Task not found
+
+  /api/v1/tasks/{id}:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: integer
+          format: int64
+          nullable: false
+    get:
+      operationId: getTask
+      description: Get task details for a given Id
+      responses:
+        "200":
+          description: Task details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Task'
+
+  /api/v1/tasks/{id}/cancel:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: integer
+          format: int64
+          nullable: false
+    post:
+      operationId: cancelTask
+      description: Cancels execution of a given task
+      responses:
+        "200":
+          description: Updated task details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Task'
+        "404":
+          description: Task not found
+
+components:
+  schemas:
+    Task:
+      type: object
+      nullable: true
+      properties:
+        id:
+          type: integer
+          format: int64
+          nullable: false
+        user_name:
+          type: string
+          nullable: false
+        created_date:
+          type: string
+          nullable: false
+          format: date-time
+          example: "2021-01-30T08:30:00Z"
+        status:
+          $ref: "#/components/schemas/TaskStatus"
+
+    TaskStatus:
+      nullable: false
+      default: NONE
+      enum:
+        - RUNNING
+        - SUCCESS
+        - FINISHED
+        - ERROR
+        - CANCELED
