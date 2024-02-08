@@ -10,7 +10,11 @@ Imagine we already have a working backend, and we need to create a frontend UI f
 
 The backend provides mechanism of _submitting_ tasks, _monitoring_ task execution status, and _cancelling_ running tasks. A submitted task takes 6-12 seconds to execute, and it may finish successfully or unsuccessfully. If user requests cancellation of the task, it finishes immediately.
 
-In this project the boilerplate code is already written, including project layout, client code for the API and proxy to the backend. You just need to fill out the missing parts. The result must be a private GitHub repository fork (shared with [@inponomarev](https://github.com/inponomarev/) GitHub user), or just a zip file with the project sent to ivan [at] synthesized.io.
+In this project the boilerplate code is already written, including project layout, client code for the API and proxy to the backend. You just need to fill out the missing parts. 
+
+## Expected Deliverables
+
+The result must be a private GitHub repository fork (shared with [@inponomarev](https://github.com/inponomarev/) GitHub user), or just a zip file with the project sent to ivan [at] synthesized.io.
 
 ## Business Logic Part
 Implement the following business logic:
