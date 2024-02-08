@@ -21,7 +21,6 @@ Implement the following business logic:
 
 _Feel free to propose your own implementation for the described features_
 
-
 ## Designing Part
 Consider UX and UI design for the following features:
 - Application layout
@@ -41,5 +40,7 @@ Documentation links you may need:
 - [React Redux](https://react-redux.js.org/)
 - [React Router](https://reactrouter.com/en/main)
 - [Panda CSS](https://panda-css.com/docs)
+- [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/)
+- [Feature Sliced Design](https://feature-sliced.design/)
 
 If you  need clarifications, technical help or if you want to provide feedback on the assignment, please write to ivan [at] synthesized.io.
