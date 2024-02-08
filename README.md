@@ -6,7 +6,7 @@ Implement the following business logic:
 - Create a **button** to add tasks in the main layout, which should re-render the table.
 - Display details of a specific task run in a modal dialog or page.
 - Include a button to stop task execution in an overlay modal dialog or details page.
-- `*Feel free to propose your own implementation for the described features*`
+****- `*Feel free to propose your own implementation for the described features*`
 
 
 [Designing Part]
@@ -28,3 +28,4 @@ Documentation links you may need:
 - [React Redux](https://react-redux.js.org/)
 - [React Router](https://reactrouter.com/en/main)
 - [Panda CSS](https://panda-css.com/docs)
+- [Feature Sliced Design](https://feature-sliced.design/)
