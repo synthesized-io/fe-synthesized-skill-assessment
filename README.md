@@ -28,4 +28,5 @@ Documentation links you may need:
 - [React Redux](https://react-redux.js.org/)
 - [React Router](https://reactrouter.com/en/main)
 - [Panda CSS](https://panda-css.com/docs)
+****- [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/)
 - [Feature Sliced Design](https://feature-sliced.design/)
