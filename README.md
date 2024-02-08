@@ -34,7 +34,7 @@ Consider UX and UI design for the following features:
 
 _You can use whatever design system you prefer. Feel free to propose your own implementation for the described features_
 
-### Testing Part (if you have time)
+### Testing (optional)
 - Add unit and/or e2e tests if you are willing.
 
 ### Useful links
