@@ -1,28 +1,30 @@
 # Frontend Synthesized Skill Assessment
 
 [Business Logic Part]
-Try to implement the following business logic:
-- **table** with pooling of tasks from backend
-- create a task **button** in main layout (which should re-render table)
-- details of specific run in modal dialog / page
-- stop task execution **button** in overlay modal dialog / details page
-feel free to implement in own way
+Implement the following business logic:
+- **Table** with pooling of tasks from the backend.
+- Create a **button** to add tasks in the main layout, which should re-render the table.
+- Display details of a specific task run in a modal dialog or page.
+- Include a button to stop task execution in an overlay modal dialog or details page.
+*Feel free to propose your own implementation for the described features*
+
 
 [Designing Part]
-Try to think about UX and UI design for the following features:
-- application layout
-- table 
-- modal dialog
-- button
-(Nice to have) use design tokens 
+Consider UX and UI design for the following features:
+- Application layout
+- Table
+- Modal dialog
+- Button
+- (Nice to have) Utilize design tokens.
+*Feel free to propose your own implementation for the described features*
 
 (Nice to have) [Testing Part]:
-- implement few playwright e2e tests for CRUD or storybook + visual tests for Widgets / Features business logic
+- Implement a few playwright end-to-end tests for CRUD operations or use Storybook for visual tests of Widgets/Features business logic.
 
 Documentation links you may need:
-- https://react.dev
-- https://redux-toolkit.js.org/usage/usage-guide#simplifying-slices-with-createslice
-- https://redux-toolkit.js.org/rtk-query/overview
-- https://react-redux.js.org/
-- https://reactrouter.com/en/main
-- https://panda-css.com/docs
+- [React](https://react.dev)
+- [Redux Toolkit](https://redux-toolkit.js.org/usage/usage-guide#simplifying-slices-with-createslice)
+- [RTK Query](https://redux-toolkit.js.org/rtk-query/overview)
+- [React Redux](https://react-redux.js.org/)
+- [React Router](https://reactrouter.com/en/main)
+- [Panda CSS](https://panda-css.com/docs)
