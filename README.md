@@ -12,11 +12,11 @@ The backend provides mechanism of _submitting_ tasks, _monitoring_ task executio
 
 In this project the boilerplate code is already written, including project layout, client code for the API and proxy to the backend. You just need to fill out the missing parts. 
 
-## Expected Deliverables
+### Expected Deliverables
 
 The result must be a private GitHub repository fork (shared with [@inponomarev](https://github.com/inponomarev/) GitHub user), or just a zip file with the project sent to ivan [at] synthesized.io.
 
-## Business Logic Part
+### Business Logic
 Implement the following business logic:
 - **Table** with the results of http://51.11.179.192/api/v1/tasks, which periodically refreshes tasks from the backend.
 - **Button** to submit a task, which should re-render the table.
@@ -25,7 +25,7 @@ Implement the following business logic:
 
 _Feel free to propose your own implementation for the described features_
 
-## Designing Part
+### Design
 Consider UX and UI design for the following features:
 - Application layout
 - Table
@@ -34,9 +34,10 @@ Consider UX and UI design for the following features:
 
 _You can use whatever design system you prefer. Feel free to propose your own implementation for the described features_
 
-## Testing Part (if you have time)
+### Testing Part (if you have time)
 - Add unit and/or e2e tests if you are willing.
 
+### Useful links
 Documentation links you may need:
 - [React](https://react.dev)
 - [Redux Toolkit](https://redux-toolkit.js.org/usage/usage-guide#simplifying-slices-with-createslice)
