@@ -6,6 +6,8 @@ In this test assignment we would like to verify your ability to interact with th
 
 We value your time and this task must not take more that 1-3 hours.
 
+### Overview
+
 Imagine we already have a working backend, and we need to create a frontend UI for this. The backend is available at http://51.11.179.192, and its OpenAPI specification is available in this project under  [src/shared/api/api.spec.yaml](https://github.com/synthesized-io/fe-synthesized-skill-assessment/blob/main/src/shared/api/api.spec.yaml)
 
 The backend provides mechanism of _submitting_ tasks, _monitoring_ task execution status, and _cancelling_ running tasks. A submitted task takes 6-12 seconds to execute, and it may finish successfully or unsuccessfully. If user requests cancellation of the task, it finishes immediately.
